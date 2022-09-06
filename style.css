@@ -36,24 +36,13 @@ body{
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		max-width:100%;
+		max-width:1440px;
 		height:auto;
 		padding: 0 37px 0 15px;
 		background-color: var(--Very-dark-blue-main);
 		margin:0;
 }
-.head h5{
-		color:green;
-		font-size: 19px;
-		font-family: outfit;
-		opacity:.8;
-		font-weight:600;
-}
-.logo_picture {
-		border-radius: 50%;
-		width: 62px;
-		padding-left: 10px;
-}
+
 .nav_bar ul{
 		list-style-type: none;
 		display: flex;
@@ -64,7 +53,7 @@ body{
 .nav_bar>ul>li>a {
 		text-decoration: none;
 		color: var(--White);
-		font-size: 21px;
+		font-size: 19px;
 		font-family: outfit-medium;
 		font-weight: 400;
 }
@@ -91,7 +80,7 @@ body{
 }
  h3, h6 {
 		font-family: outfit-medium;
-		font-size: 16px;
+		font-size: 13px;
 		font-weight: 500;
 		color: var(--White);
 		margin-left: 10px;
@@ -115,7 +104,7 @@ button:hover{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-		gap: 3px;
+		gap: 2px;
 }
 .promo{
 		width: 33.3%;
